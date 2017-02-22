@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C065E801E5C85520009F7F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C065E7F1E5C85520009F7F6 /* AppDelegate.swift */; };
+		3C065E821E5C85520009F7F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C065E811E5C85520009F7F6 /* ViewController.swift */; };
+		3C065E851E5C85520009F7F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C065E831E5C85520009F7F6 /* Main.storyboard */; };
+		3C065E871E5C85520009F7F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C065E861E5C85520009F7F6 /* Assets.xcassets */; };
+		3C065E8A1E5C85520009F7F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C065E881E5C85520009F7F6 /* LaunchScreen.storyboard */; };
 		6AB2A0171AF26C36001EBB20 /* AlamofireObjectMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AB2A0161AF26C36001EBB20 /* AlamofireObjectMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6AB2A01D1AF26C36001EBB20 /* AlamofireObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB2A0111AF26C36001EBB20 /* AlamofireObjectMapper.framework */; };
 		6AB2A0241AF26C36001EBB20 /* AlamofireObjectMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB2A0231AF26C36001EBB20 /* AlamofireObjectMapperTests.swift */; };
@@ -154,6 +159,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C065E7D1E5C85520009F7F6 /* AlamofireObjectMapperExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlamofireObjectMapperExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C065E7F1E5C85520009F7F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C065E811E5C85520009F7F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3C065E841E5C85520009F7F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C065E861E5C85520009F7F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C065E891E5C85520009F7F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C065E8B1E5C85520009F7F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6AB2A0111AF26C36001EBB20 /* AlamofireObjectMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AlamofireObjectMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AB2A0151AF26C36001EBB20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6AB2A0161AF26C36001EBB20 /* AlamofireObjectMapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlamofireObjectMapper.h; sourceTree = "<group>"; };
@@ -171,6 +183,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3C065E7A1E5C85520009F7F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6AB2A00D1AF26C36001EBB20 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -234,6 +253,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C065E7E1E5C85520009F7F6 /* AlamofireObjectMapperExample */ = {
+			isa = PBXGroup;
+			children = (
+				3C065E7F1E5C85520009F7F6 /* AppDelegate.swift */,
+				3C065E811E5C85520009F7F6 /* ViewController.swift */,
+				3C065E831E5C85520009F7F6 /* Main.storyboard */,
+				3C065E861E5C85520009F7F6 /* Assets.xcassets */,
+				3C065E881E5C85520009F7F6 /* LaunchScreen.storyboard */,
+				3C065E8B1E5C85520009F7F6 /* Info.plist */,
+			);
+			path = AlamofireObjectMapperExample;
+			sourceTree = "<group>";
+		};
 		6AB2A0071AF26C36001EBB20 = {
 			isa = PBXGroup;
 			children = (
@@ -241,6 +273,7 @@
 				E89A900C1D6F5F520023C364 /* ObjectMapper.xcodeproj */,
 				6AB2A0131AF26C36001EBB20 /* AlamofireObjectMapper */,
 				6AB2A0201AF26C36001EBB20 /* AlamofireObjectMapperTests */,
+				3C065E7E1E5C85520009F7F6 /* AlamofireObjectMapperExample */,
 				6AB2A0121AF26C36001EBB20 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -255,6 +288,7 @@
 				6AC4580C1BA34C5600054758 /* AlamofireObjectMapper.framework */,
 				6AC692061BE3F69E004C119A /* AlamofireObjectMapper.framework */,
 				6AC692121BE3F7F5004C119A /* AlamofireObjectMapperTests tvOS.xctest */,
+				3C065E7D1E5C85520009F7F6 /* AlamofireObjectMapperExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -360,6 +394,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		3C065E7C1E5C85520009F7F6 /* AlamofireObjectMapperExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C065E8C1E5C85520009F7F6 /* Build configuration list for PBXNativeTarget "AlamofireObjectMapperExample" */;
+			buildPhases = (
+				3C065E791E5C85520009F7F6 /* Sources */,
+				3C065E7A1E5C85520009F7F6 /* Frameworks */,
+				3C065E7B1E5C85520009F7F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlamofireObjectMapperExample;
+			productName = AlamofireObjectMapperExample;
+			productReference = 3C065E7D1E5C85520009F7F6 /* AlamofireObjectMapperExample.app */;
+			productType = "com.apple.product-type.application";
+		};
 		6AB2A0101AF26C36001EBB20 /* AlamofireObjectMapper iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6AB2A0271AF26C36001EBB20 /* Build configuration list for PBXNativeTarget "AlamofireObjectMapper iOS" */;
@@ -492,10 +543,15 @@
 			attributes = {
 				CLASSPREFIX = "";
 				LastSwiftMigration = 0700;
-				LastSwiftUpdateCheck = 0710;
+				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Tristan Himmelman";
 				TargetAttributes = {
+					3C065E7C1E5C85520009F7F6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 46A8679957;
+						ProvisioningStyle = Automatic;
+					};
 					6AB2A0101AF26C36001EBB20 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0800;
@@ -527,6 +583,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 6AB2A0071AF26C36001EBB20;
 			productRefGroup = 6AB2A0121AF26C36001EBB20 /* Products */;
@@ -550,6 +607,7 @@
 				6AC692051BE3F69E004C119A /* AlamofireObjectMapper tvOS */,
 				6AC692111BE3F7F5004C119A /* AlamofireObjectMapperTests tvOS */,
 				6AC4580B1BA34C5600054758 /* AlamofireObjectMapper watchOS */,
+				3C065E7C1E5C85520009F7F6 /* AlamofireObjectMapperExample */,
 			);
 		};
 /* End PBXProject section */
@@ -656,6 +714,16 @@
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3C065E7B1E5C85520009F7F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C065E8A1E5C85520009F7F6 /* LaunchScreen.storyboard in Resources */,
+				3C065E871E5C85520009F7F6 /* Assets.xcassets in Resources */,
+				3C065E851E5C85520009F7F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6AB2A01A1AF26C36001EBB20 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -694,6 +762,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3C065E791E5C85520009F7F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C065E821E5C85520009F7F6 /* ViewController.swift in Sources */,
+				3C065E801E5C85520009F7F6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6AB2A00C1AF26C36001EBB20 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -770,7 +847,61 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		3C065E831E5C85520009F7F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C065E841E5C85520009F7F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C065E881E5C85520009F7F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C065E891E5C85520009F7F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		3C065E8D1E5C85520009F7F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 46A8679957;
+				INFOPLIST_FILE = AlamofireObjectMapperExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KingCQ.AlamofireObjectMapperExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3C065E8E1E5C85520009F7F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEVELOPMENT_TEAM = 46A8679957;
+				INFOPLIST_FILE = AlamofireObjectMapperExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KingCQ.AlamofireObjectMapperExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		6AB2A0251AF26C36001EBB20 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1187,6 +1318,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3C065E8C1E5C85520009F7F6 /* Build configuration list for PBXNativeTarget "AlamofireObjectMapperExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C065E8D1E5C85520009F7F6 /* Debug */,
+				3C065E8E1E5C85520009F7F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6AB2A00B1AF26C36001EBB20 /* Build configuration list for PBXProject "AlamofireObjectMapper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
